@@ -1,0 +1,1234 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E10D91F4296CD2C400DDC186 /* BottomSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10D91F3296CD2C400DDC186 /* BottomSheet.swift */; };
+		E10D91F7296CD5DE00DDC186 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10D91F6296CD5DE00DDC186 /* Settings.swift */; };
+		E10D91F9296E330900DDC186 /* About.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10D91F8296E330900DDC186 /* About.swift */; };
+		E11402F529EF5B1B00181345 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11402F429EF5B1B00181345 /* Notifications.swift */; };
+		E11402FD29EF5BAE00181345 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E11402FC29EF5BAE00181345 /* WidgetKit.framework */; };
+		E11402FF29EF5BAE00181345 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E11402FE29EF5BAE00181345 /* SwiftUI.framework */; };
+		E114030229EF5BAF00181345 /* Scrub_iOS_WidgetsBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E114030129EF5BAF00181345 /* Scrub_iOS_WidgetsBundle.swift */; };
+		E114030429EF5BAF00181345 /* Scrub_iOS_WidgetsLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = E114030329EF5BAF00181345 /* Scrub_iOS_WidgetsLiveActivity.swift */; };
+		E114030629EF5BAF00181345 /* Scrub_iOS_Widgets.swift in Sources */ = {isa = PBXBuildFile; fileRef = E114030529EF5BAF00181345 /* Scrub_iOS_Widgets.swift */; };
+		E114030929EF5BAF00181345 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E114030829EF5BAF00181345 /* Assets.xcassets */; };
+		E114030B29EF5BAF00181345 /* Scrub_iOS_Widgets.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = E114030729EF5BAF00181345 /* Scrub_iOS_Widgets.intentdefinition */; };
+		E114030C29EF5BAF00181345 /* Scrub_iOS_Widgets.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = E114030729EF5BAF00181345 /* Scrub_iOS_Widgets.intentdefinition */; };
+		E114030F29EF5BAF00181345 /* iOS Widgets.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = E11402FA29EF5BAE00181345 /* iOS Widgets.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E1A04B4B2964FB7A0075AB2D /* toothApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A04B4A2964FB7A0075AB2D /* toothApp.swift */; };
+		E1A04B4D2964FB7A0075AB2D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A04B4C2964FB7A0075AB2D /* ContentView.swift */; };
+		E1A04B4F2964FB7B0075AB2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1A04B4E2964FB7B0075AB2D /* Assets.xcassets */; };
+		E1A04B522964FB7B0075AB2D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1A04B512964FB7B0075AB2D /* Preview Assets.xcassets */; };
+		E1A04B5C2964FB7B0075AB2D /* toothTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A04B5B2964FB7B0075AB2D /* toothTests.swift */; };
+		E1A04B662964FB7B0075AB2D /* toothUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A04B652964FB7B0075AB2D /* toothUITests.swift */; };
+		E1A04B682964FB7B0075AB2D /* toothUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A04B672964FB7B0075AB2D /* toothUITestsLaunchTests.swift */; };
+		E1A04B762965E24E0075AB2D /* EffectsLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = E1A04B752965E24E0075AB2D /* EffectsLibrary */; };
+		E1A04B7C2965FD770075AB2D /* AppleHealthSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A04B7B2965FD770075AB2D /* AppleHealthSheet.swift */; };
+		E1A04B81296632000075AB2D /* HealthStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A04B80296632000075AB2D /* HealthStore.swift */; };
+		E1A291B62971F9DA00D20896 /* Credits.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A291B52971F9DA00D20896 /* Credits.swift */; };
+		E1A291B82976A9D600D20896 /* ThemePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A291B72976A9D600D20896 /* ThemePicker.swift */; };
+		E1A291BA2977588000D20896 /* TimeChip.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A291B92977588000D20896 /* TimeChip.swift */; };
+		E1A291BC2977693800D20896 /* SettingsAddNotificationBottomSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A291BB2977693800D20896 /* SettingsAddNotificationBottomSheet.swift */; };
+		E1AA428F296A369D00CA2FBA /* BottomSheet in Frameworks */ = {isa = PBXBuildFile; productRef = E1AA428E296A369D00CA2FBA /* BottomSheet */; };
+		E1B924F62A1179410036CCDA /* ScrubNotificationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B924F52A1179410036CCDA /* ScrubNotificationModel.swift */; };
+		E1B924F82A119A260036CCDA /* ScrubNotificationLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B924F72A119A260036CCDA /* ScrubNotificationLogic.swift */; };
+		E1BDC1402A0836CB00D3B34F /* toothApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BDC13F2A0836CB00D3B34F /* toothApp.swift */; };
+		E1BDC1422A0836CB00D3B34F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BDC1412A0836CB00D3B34F /* ContentView.swift */; };
+		E1BDC1442A0836CD00D3B34F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1BDC1432A0836CD00D3B34F /* Assets.xcassets */; };
+		E1BDC1472A0836CD00D3B34F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1BDC1462A0836CD00D3B34F /* Preview Assets.xcassets */; };
+		E1BDC14A2A0836CD00D3B34F /* tooth Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = E1BDC13D2A0836CB00D3B34F /* tooth Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E114030D29EF5BAF00181345 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1A04B3F2964FB7A0075AB2D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E11402F929EF5BAE00181345;
+			remoteInfo = "Scrub iOS WidgetsExtension";
+		};
+		E1A04B582964FB7B0075AB2D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1A04B3F2964FB7A0075AB2D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1A04B462964FB7A0075AB2D;
+			remoteInfo = tooth;
+		};
+		E1A04B622964FB7B0075AB2D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1A04B3F2964FB7A0075AB2D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1A04B462964FB7A0075AB2D;
+			remoteInfo = tooth;
+		};
+		E1BDC1482A0836CD00D3B34F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1A04B3F2964FB7A0075AB2D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1BDC13C2A0836CB00D3B34F;
+			remoteInfo = "tooth Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E114031329EF5BB000181345 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				E114030F29EF5BAF00181345 /* iOS Widgets.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1C44A5D297B02B400E7A6AA /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				E1BDC14A2A0836CD00D3B34F /* tooth Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1C44B99297B0A9400E7A6AA /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E10D91F3296CD2C400DDC186 /* BottomSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheet.swift; sourceTree = "<group>"; };
+		E10D91F6296CD5DE00DDC186 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		E10D91F8296E330900DDC186 /* About.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = About.swift; sourceTree = "<group>"; };
+		E11402F429EF5B1B00181345 /* Notifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notifications.swift; sourceTree = "<group>"; };
+		E11402FA29EF5BAE00181345 /* iOS Widgets.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "iOS Widgets.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E11402FC29EF5BAE00181345 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		E11402FE29EF5BAE00181345 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		E114030129EF5BAF00181345 /* Scrub_iOS_WidgetsBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scrub_iOS_WidgetsBundle.swift; sourceTree = "<group>"; };
+		E114030329EF5BAF00181345 /* Scrub_iOS_WidgetsLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scrub_iOS_WidgetsLiveActivity.swift; sourceTree = "<group>"; };
+		E114030529EF5BAF00181345 /* Scrub_iOS_Widgets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scrub_iOS_Widgets.swift; sourceTree = "<group>"; };
+		E114030729EF5BAF00181345 /* Scrub_iOS_Widgets.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = Scrub_iOS_Widgets.intentdefinition; sourceTree = "<group>"; };
+		E114030829EF5BAF00181345 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E114030A29EF5BAF00181345 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1627A8E29F489E20047F781 /* iOS Widgets.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "iOS Widgets.entitlements"; sourceTree = "<group>"; };
+		E1A04B472964FB7A0075AB2D /* Scrub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scrub.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1A04B4A2964FB7A0075AB2D /* toothApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = toothApp.swift; sourceTree = "<group>"; };
+		E1A04B4C2964FB7A0075AB2D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E1A04B4E2964FB7B0075AB2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E1A04B512964FB7B0075AB2D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E1A04B572964FB7B0075AB2D /* Scrub iOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Scrub iOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1A04B5B2964FB7B0075AB2D /* toothTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = toothTests.swift; sourceTree = "<group>"; };
+		E1A04B612964FB7B0075AB2D /* Scrub iOS UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Scrub iOS UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1A04B652964FB7B0075AB2D /* toothUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = toothUITests.swift; sourceTree = "<group>"; };
+		E1A04B672964FB7B0075AB2D /* toothUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = toothUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E1A04B7B2965FD770075AB2D /* AppleHealthSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleHealthSheet.swift; sourceTree = "<group>"; };
+		E1A04B7F296629EF0075AB2D /* tooth.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = tooth.entitlements; sourceTree = "<group>"; };
+		E1A04B80296632000075AB2D /* HealthStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthStore.swift; sourceTree = "<group>"; };
+		E1A04B822966462B0075AB2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		E1A291B52971F9DA00D20896 /* Credits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Credits.swift; sourceTree = "<group>"; };
+		E1A291B72976A9D600D20896 /* ThemePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemePicker.swift; sourceTree = "<group>"; };
+		E1A291B92977588000D20896 /* TimeChip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeChip.swift; sourceTree = "<group>"; };
+		E1A291BB2977693800D20896 /* SettingsAddNotificationBottomSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsAddNotificationBottomSheet.swift; sourceTree = "<group>"; };
+		E1B924F52A1179410036CCDA /* ScrubNotificationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrubNotificationModel.swift; sourceTree = "<group>"; };
+		E1B924F72A119A260036CCDA /* ScrubNotificationLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrubNotificationLogic.swift; sourceTree = "<group>"; };
+		E1BDC13D2A0836CB00D3B34F /* tooth Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tooth Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1BDC13F2A0836CB00D3B34F /* toothApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = toothApp.swift; sourceTree = "<group>"; };
+		E1BDC1412A0836CB00D3B34F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E1BDC1432A0836CD00D3B34F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E1BDC1462A0836CD00D3B34F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E1C44B6D297B0A9000E7A6AA /* Scrub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scrub.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1C44B77297B0A9100E7A6AA /* ScrubApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrubApp.swift; sourceTree = "<group>"; };
+		E1C44B79297B0A9100E7A6AA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E1C44B7B297B0A9200E7A6AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E1C44B7E297B0A9200E7A6AA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E1C44B88297B0A9300E7A6AA /* Scrub_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scrub_Watch_AppTests.swift; sourceTree = "<group>"; };
+		E1C44B92297B0A9400E7A6AA /* Scrub_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scrub_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		E1C44B94297B0A9400E7A6AA /* Scrub_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scrub_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E11402F729EF5BAE00181345 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E11402FF29EF5BAE00181345 /* SwiftUI.framework in Frameworks */,
+				E11402FD29EF5BAE00181345 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1A04B442964FB7A0075AB2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1A04B762965E24E0075AB2D /* EffectsLibrary in Frameworks */,
+				E1AA428F296A369D00CA2FBA /* BottomSheet in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1A04B542964FB7B0075AB2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1A04B5E2964FB7B0075AB2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1BDC13A2A0836CB00D3B34F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E10D91F5296CD5BC00DDC186 /* BottomSheet */ = {
+			isa = PBXGroup;
+			children = (
+				E10D91F6296CD5DE00DDC186 /* Settings.swift */,
+				E10D91F8296E330900DDC186 /* About.swift */,
+				E1A291B52971F9DA00D20896 /* Credits.swift */,
+				E1A291B72976A9D600D20896 /* ThemePicker.swift */,
+				E1A291B92977588000D20896 /* TimeChip.swift */,
+				E1A291BB2977693800D20896 /* SettingsAddNotificationBottomSheet.swift */,
+			);
+			name = BottomSheet;
+			sourceTree = "<group>";
+		};
+		E11402F329EF5B0700181345 /* Functions */ = {
+			isa = PBXGroup;
+			children = (
+				E11402F429EF5B1B00181345 /* Notifications.swift */,
+				E1B924F52A1179410036CCDA /* ScrubNotificationModel.swift */,
+				E1B924F72A119A260036CCDA /* ScrubNotificationLogic.swift */,
+			);
+			name = Functions;
+			sourceTree = "<group>";
+		};
+		E11402FB29EF5BAE00181345 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E11402FC29EF5BAE00181345 /* WidgetKit.framework */,
+				E11402FE29EF5BAE00181345 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E114030029EF5BAF00181345 /* Scrub iOS Widgets */ = {
+			isa = PBXGroup;
+			children = (
+				E114030129EF5BAF00181345 /* Scrub_iOS_WidgetsBundle.swift */,
+				E114030329EF5BAF00181345 /* Scrub_iOS_WidgetsLiveActivity.swift */,
+				E114030529EF5BAF00181345 /* Scrub_iOS_Widgets.swift */,
+				E114030729EF5BAF00181345 /* Scrub_iOS_Widgets.intentdefinition */,
+				E114030829EF5BAF00181345 /* Assets.xcassets */,
+				E114030A29EF5BAF00181345 /* Info.plist */,
+			);
+			path = "Scrub iOS Widgets";
+			sourceTree = "<group>";
+		};
+		E1A04B3E2964FB7A0075AB2D = {
+			isa = PBXGroup;
+			children = (
+				E1627A8E29F489E20047F781 /* iOS Widgets.entitlements */,
+				E1A04B492964FB7A0075AB2D /* tooth */,
+				E1A04B5A2964FB7B0075AB2D /* toothTests */,
+				E1A04B642964FB7B0075AB2D /* toothUITests */,
+				E1C44B76297B0A9100E7A6AA /* Scrub Watch App */,
+				E1C44B87297B0A9300E7A6AA /* Scrub Watch AppTests */,
+				E1C44B91297B0A9400E7A6AA /* Scrub Watch AppUITests */,
+				E114030029EF5BAF00181345 /* Scrub iOS Widgets */,
+				E1BDC13E2A0836CB00D3B34F /* tooth Watch App */,
+				E11402FB29EF5BAE00181345 /* Frameworks */,
+				E1A04B482964FB7A0075AB2D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E1A04B482964FB7A0075AB2D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1A04B472964FB7A0075AB2D /* Scrub.app */,
+				E1A04B572964FB7B0075AB2D /* Scrub iOS Tests.xctest */,
+				E1A04B612964FB7B0075AB2D /* Scrub iOS UITests.xctest */,
+				E1C44B6D297B0A9000E7A6AA /* Scrub.app */,
+				E11402FA29EF5BAE00181345 /* iOS Widgets.appex */,
+				E1BDC13D2A0836CB00D3B34F /* tooth Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1A04B492964FB7A0075AB2D /* tooth */ = {
+			isa = PBXGroup;
+			children = (
+				E11402F329EF5B0700181345 /* Functions */,
+				E1A04B822966462B0075AB2D /* Info.plist */,
+				E1A04B7F296629EF0075AB2D /* tooth.entitlements */,
+				E1A04B772965FD160075AB2D /* Views */,
+				E1A04B4A2964FB7A0075AB2D /* toothApp.swift */,
+				E1A04B4C2964FB7A0075AB2D /* ContentView.swift */,
+				E1A04B4E2964FB7B0075AB2D /* Assets.xcassets */,
+				E1A04B502964FB7B0075AB2D /* Preview Content */,
+				E1A04B80296632000075AB2D /* HealthStore.swift */,
+			);
+			path = tooth;
+			sourceTree = "<group>";
+		};
+		E1A04B502964FB7B0075AB2D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E1A04B512964FB7B0075AB2D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E1A04B5A2964FB7B0075AB2D /* toothTests */ = {
+			isa = PBXGroup;
+			children = (
+				E1A04B5B2964FB7B0075AB2D /* toothTests.swift */,
+			);
+			path = toothTests;
+			sourceTree = "<group>";
+		};
+		E1A04B642964FB7B0075AB2D /* toothUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E1A04B652964FB7B0075AB2D /* toothUITests.swift */,
+				E1A04B672964FB7B0075AB2D /* toothUITestsLaunchTests.swift */,
+			);
+			path = toothUITests;
+			sourceTree = "<group>";
+		};
+		E1A04B772965FD160075AB2D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E10D91F5296CD5BC00DDC186 /* BottomSheet */,
+				E1A04B782965FD2E0075AB2D /* Apple Health */,
+				E10D91F3296CD2C400DDC186 /* BottomSheet.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		E1A04B782965FD2E0075AB2D /* Apple Health */ = {
+			isa = PBXGroup;
+			children = (
+				E1A04B7B2965FD770075AB2D /* AppleHealthSheet.swift */,
+			);
+			name = "Apple Health";
+			sourceTree = "<group>";
+		};
+		E1BDC13E2A0836CB00D3B34F /* tooth Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				E1BDC13F2A0836CB00D3B34F /* toothApp.swift */,
+				E1BDC1412A0836CB00D3B34F /* ContentView.swift */,
+				E1BDC1432A0836CD00D3B34F /* Assets.xcassets */,
+				E1BDC1452A0836CD00D3B34F /* Preview Content */,
+			);
+			path = "tooth Watch App";
+			sourceTree = "<group>";
+		};
+		E1BDC1452A0836CD00D3B34F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E1BDC1462A0836CD00D3B34F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E1C44B76297B0A9100E7A6AA /* Scrub Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				E1C44B77297B0A9100E7A6AA /* ScrubApp.swift */,
+				E1C44B79297B0A9100E7A6AA /* ContentView.swift */,
+				E1C44B7B297B0A9200E7A6AA /* Assets.xcassets */,
+				E1C44B7D297B0A9200E7A6AA /* Preview Content */,
+			);
+			path = "Scrub Watch App";
+			sourceTree = "<group>";
+		};
+		E1C44B7D297B0A9200E7A6AA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E1C44B7E297B0A9200E7A6AA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E1C44B87297B0A9300E7A6AA /* Scrub Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				E1C44B88297B0A9300E7A6AA /* Scrub_Watch_AppTests.swift */,
+			);
+			path = "Scrub Watch AppTests";
+			sourceTree = "<group>";
+		};
+		E1C44B91297B0A9400E7A6AA /* Scrub Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E1C44B92297B0A9400E7A6AA /* Scrub_Watch_AppUITests.swift */,
+				E1C44B94297B0A9400E7A6AA /* Scrub_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "Scrub Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E11402F929EF5BAE00181345 /* iOS Widgets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E114031029EF5BB000181345 /* Build configuration list for PBXNativeTarget "iOS Widgets" */;
+			buildPhases = (
+				E11402F629EF5BAE00181345 /* Sources */,
+				E11402F729EF5BAE00181345 /* Frameworks */,
+				E11402F829EF5BAE00181345 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS Widgets";
+			productName = "Scrub iOS WidgetsExtension";
+			productReference = E11402FA29EF5BAE00181345 /* iOS Widgets.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		E1A04B462964FB7A0075AB2D /* Scrub iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1A04B6B2964FB7B0075AB2D /* Build configuration list for PBXNativeTarget "Scrub iOS" */;
+			buildPhases = (
+				E1A04B432964FB7A0075AB2D /* Sources */,
+				E1A04B442964FB7A0075AB2D /* Frameworks */,
+				E1A04B452964FB7A0075AB2D /* Resources */,
+				E1C44A5D297B02B400E7A6AA /* Embed Watch Content */,
+				E114031329EF5BB000181345 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E114030E29EF5BAF00181345 /* PBXTargetDependency */,
+				E1BDC1492A0836CD00D3B34F /* PBXTargetDependency */,
+			);
+			name = "Scrub iOS";
+			packageProductDependencies = (
+				E1A04B752965E24E0075AB2D /* EffectsLibrary */,
+				E1AA428E296A369D00CA2FBA /* BottomSheet */,
+			);
+			productName = tooth;
+			productReference = E1A04B472964FB7A0075AB2D /* Scrub.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E1A04B562964FB7B0075AB2D /* Scrub iOS Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1A04B6E2964FB7B0075AB2D /* Build configuration list for PBXNativeTarget "Scrub iOS Tests" */;
+			buildPhases = (
+				E1A04B532964FB7B0075AB2D /* Sources */,
+				E1A04B542964FB7B0075AB2D /* Frameworks */,
+				E1A04B552964FB7B0075AB2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1A04B592964FB7B0075AB2D /* PBXTargetDependency */,
+			);
+			name = "Scrub iOS Tests";
+			productName = toothTests;
+			productReference = E1A04B572964FB7B0075AB2D /* Scrub iOS Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E1A04B602964FB7B0075AB2D /* Scrub iOS UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1A04B712964FB7B0075AB2D /* Build configuration list for PBXNativeTarget "Scrub iOS UITests" */;
+			buildPhases = (
+				E1A04B5D2964FB7B0075AB2D /* Sources */,
+				E1A04B5E2964FB7B0075AB2D /* Frameworks */,
+				E1A04B5F2964FB7B0075AB2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1A04B632964FB7B0075AB2D /* PBXTargetDependency */,
+			);
+			name = "Scrub iOS UITests";
+			productName = toothUITests;
+			productReference = E1A04B612964FB7B0075AB2D /* Scrub iOS UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		E1BDC13C2A0836CB00D3B34F /* tooth Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1BDC14D2A0836CD00D3B34F /* Build configuration list for PBXNativeTarget "tooth Watch App" */;
+			buildPhases = (
+				E1BDC1392A0836CB00D3B34F /* Sources */,
+				E1BDC13A2A0836CB00D3B34F /* Frameworks */,
+				E1BDC13B2A0836CB00D3B34F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "tooth Watch App";
+			productName = "tooth Watch App";
+			productReference = E1BDC13D2A0836CB00D3B34F /* tooth Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E1C44B6C297B0A9000E7A6AA /* Scrub */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1C44B9A297B0A9400E7A6AA /* Build configuration list for PBXNativeTarget "Scrub" */;
+			buildPhases = (
+				E1C44B6B297B0A9000E7A6AA /* Resources */,
+				E1C44B99297B0A9400E7A6AA /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Scrub;
+			productName = Scrub;
+			productReference = E1C44B6D297B0A9000E7A6AA /* Scrub.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E1A04B3F2964FB7A0075AB2D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					E11402F929EF5BAE00181345 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					E1A04B462964FB7A0075AB2D = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					E1A04B562964FB7B0075AB2D = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = E1A04B462964FB7A0075AB2D;
+					};
+					E1A04B602964FB7B0075AB2D = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = E1A04B462964FB7A0075AB2D;
+					};
+					E1BDC13C2A0836CB00D3B34F = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					E1C44B6C297B0A9000E7A6AA = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = E1A04B422964FB7A0075AB2D /* Build configuration list for PBXProject "tooth" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E1A04B3E2964FB7A0075AB2D;
+			packageReferences = (
+				E1A04B742965E24E0075AB2D /* XCRemoteSwiftPackageReference "effects-library" */,
+				E1AA428D296A369D00CA2FBA /* XCRemoteSwiftPackageReference "BottomSheet" */,
+				E11402EF29E46EB800181345 /* XCRemoteSwiftPackageReference "SwiftUIToast" */,
+			);
+			productRefGroup = E1A04B482964FB7A0075AB2D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E1A04B462964FB7A0075AB2D /* Scrub iOS */,
+				E1A04B562964FB7B0075AB2D /* Scrub iOS Tests */,
+				E1A04B602964FB7B0075AB2D /* Scrub iOS UITests */,
+				E1C44B6C297B0A9000E7A6AA /* Scrub */,
+				E11402F929EF5BAE00181345 /* iOS Widgets */,
+				E1BDC13C2A0836CB00D3B34F /* tooth Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E11402F829EF5BAE00181345 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E114030929EF5BAF00181345 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1A04B452964FB7A0075AB2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1A04B522964FB7B0075AB2D /* Preview Assets.xcassets in Resources */,
+				E1A04B4F2964FB7B0075AB2D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1A04B552964FB7B0075AB2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1A04B5F2964FB7B0075AB2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1BDC13B2A0836CB00D3B34F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1BDC1472A0836CD00D3B34F /* Preview Assets.xcassets in Resources */,
+				E1BDC1442A0836CD00D3B34F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1C44B6B297B0A9000E7A6AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E11402F629EF5BAE00181345 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E114030429EF5BAF00181345 /* Scrub_iOS_WidgetsLiveActivity.swift in Sources */,
+				E114030229EF5BAF00181345 /* Scrub_iOS_WidgetsBundle.swift in Sources */,
+				E114030B29EF5BAF00181345 /* Scrub_iOS_Widgets.intentdefinition in Sources */,
+				E114030629EF5BAF00181345 /* Scrub_iOS_Widgets.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1A04B432964FB7A0075AB2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E11402F529EF5B1B00181345 /* Notifications.swift in Sources */,
+				E1B924F82A119A260036CCDA /* ScrubNotificationLogic.swift in Sources */,
+				E1B924F62A1179410036CCDA /* ScrubNotificationModel.swift in Sources */,
+				E10D91F7296CD5DE00DDC186 /* Settings.swift in Sources */,
+				E1A04B7C2965FD770075AB2D /* AppleHealthSheet.swift in Sources */,
+				E114030C29EF5BAF00181345 /* Scrub_iOS_Widgets.intentdefinition in Sources */,
+				E1A291BC2977693800D20896 /* SettingsAddNotificationBottomSheet.swift in Sources */,
+				E10D91F9296E330900DDC186 /* About.swift in Sources */,
+				E1A291B82976A9D600D20896 /* ThemePicker.swift in Sources */,
+				E10D91F4296CD2C400DDC186 /* BottomSheet.swift in Sources */,
+				E1A04B4D2964FB7A0075AB2D /* ContentView.swift in Sources */,
+				E1A291BA2977588000D20896 /* TimeChip.swift in Sources */,
+				E1A04B4B2964FB7A0075AB2D /* toothApp.swift in Sources */,
+				E1A291B62971F9DA00D20896 /* Credits.swift in Sources */,
+				E1A04B81296632000075AB2D /* HealthStore.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1A04B532964FB7B0075AB2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1A04B5C2964FB7B0075AB2D /* toothTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1A04B5D2964FB7B0075AB2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1A04B662964FB7B0075AB2D /* toothUITests.swift in Sources */,
+				E1A04B682964FB7B0075AB2D /* toothUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1BDC1392A0836CB00D3B34F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1BDC1422A0836CB00D3B34F /* ContentView.swift in Sources */,
+				E1BDC1402A0836CB00D3B34F /* toothApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E114030E29EF5BAF00181345 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E11402F929EF5BAE00181345 /* iOS Widgets */;
+			targetProxy = E114030D29EF5BAF00181345 /* PBXContainerItemProxy */;
+		};
+		E1A04B592964FB7B0075AB2D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1A04B462964FB7A0075AB2D /* Scrub iOS */;
+			targetProxy = E1A04B582964FB7B0075AB2D /* PBXContainerItemProxy */;
+		};
+		E1A04B632964FB7B0075AB2D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1A04B462964FB7A0075AB2D /* Scrub iOS */;
+			targetProxy = E1A04B622964FB7B0075AB2D /* PBXContainerItemProxy */;
+		};
+		E1BDC1492A0836CD00D3B34F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1BDC13C2A0836CB00D3B34F /* tooth Watch App */;
+			targetProxy = E1BDC1482A0836CD00D3B34F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E114031129EF5BB000181345 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = "iOS Widgets.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 626S7SSF43;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Scrub iOS Widgets/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Scrub iOS Widgets";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.kekesi.tooth.Scrub-iOS-Widgets";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		E114031229EF5BB000181345 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = "iOS Widgets.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 626S7SSF43;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Scrub iOS Widgets/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Scrub iOS Widgets";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.kekesi.tooth.Scrub-iOS-Widgets";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		E1A04B692964FB7B0075AB2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E1A04B6A2964FB7B0075AB2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E1A04B6C2964FB7B0075AB2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_ALTERNATE_APPICON_NAMES = "AppIcon_purple AppIcon_indigo AppIcon_orange AppIcon_green AppIcon_yellow";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = tooth/tooth.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"tooth/Preview Content\"";
+				DEVELOPMENT_TEAM = 626S7SSF43;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = tooth/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Scrub saves your toothbrushes to Apple Healt and reads the last time you have brushed your teeth to display.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Scrub reads the last time you have brushed your teeth to display.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.kekesi.tooth;
+				PRODUCT_NAME = Scrub;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		E1A04B6D2964FB7B0075AB2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_ALTERNATE_APPICON_NAMES = "AppIcon_purple AppIcon_indigo AppIcon_orange AppIcon_green AppIcon_yellow";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = tooth/tooth.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"tooth/Preview Content\"";
+				DEVELOPMENT_TEAM = 626S7SSF43;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = tooth/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Scrub saves your toothbrushes to Apple Healt and reads the last time you have brushed your teeth to display.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Scrub reads the last time you have brushed your teeth to display.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.kekesi.tooth;
+				PRODUCT_NAME = Scrub;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		E1A04B6F2964FB7B0075AB2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 626S7SSF43;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.kekesi.toothTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tooth.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/tooth";
+			};
+			name = Debug;
+		};
+		E1A04B702964FB7B0075AB2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 626S7SSF43;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.kekesi.toothTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tooth.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/tooth";
+			};
+			name = Release;
+		};
+		E1A04B722964FB7B0075AB2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 626S7SSF43;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.kekesi.toothUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = tooth;
+			};
+			name = Debug;
+		};
+		E1A04B732964FB7B0075AB2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 626S7SSF43;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.kekesi.toothUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = tooth;
+			};
+			name = Release;
+		};
+		E1BDC14B2A0836CD00D3B34F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"tooth Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 626S7SSF43;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = tooth;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = dev.kekesi.tooth;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.kekesi.tooth.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		E1BDC14C2A0836CD00D3B34F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"tooth Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 626S7SSF43;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = tooth;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = dev.kekesi.tooth;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.kekesi.tooth.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+		E1C44B9B297B0A9400E7A6AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 626S7SSF43;
+				INFOPLIST_KEY_CFBundleDisplayName = Scrub;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.kekesi.Scrub;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E1C44B9C297B0A9400E7A6AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 626S7SSF43;
+				INFOPLIST_KEY_CFBundleDisplayName = Scrub;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.kekesi.Scrub;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E114031029EF5BB000181345 /* Build configuration list for PBXNativeTarget "iOS Widgets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E114031129EF5BB000181345 /* Debug */,
+				E114031229EF5BB000181345 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1A04B422964FB7A0075AB2D /* Build configuration list for PBXProject "tooth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1A04B692964FB7B0075AB2D /* Debug */,
+				E1A04B6A2964FB7B0075AB2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1A04B6B2964FB7B0075AB2D /* Build configuration list for PBXNativeTarget "Scrub iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1A04B6C2964FB7B0075AB2D /* Debug */,
+				E1A04B6D2964FB7B0075AB2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1A04B6E2964FB7B0075AB2D /* Build configuration list for PBXNativeTarget "Scrub iOS Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1A04B6F2964FB7B0075AB2D /* Debug */,
+				E1A04B702964FB7B0075AB2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1A04B712964FB7B0075AB2D /* Build configuration list for PBXNativeTarget "Scrub iOS UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1A04B722964FB7B0075AB2D /* Debug */,
+				E1A04B732964FB7B0075AB2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1BDC14D2A0836CD00D3B34F /* Build configuration list for PBXNativeTarget "tooth Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1BDC14B2A0836CD00D3B34F /* Debug */,
+				E1BDC14C2A0836CD00D3B34F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1C44B9A297B0A9400E7A6AA /* Build configuration list for PBXNativeTarget "Scrub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1C44B9B297B0A9400E7A6AA /* Debug */,
+				E1C44B9C297B0A9400E7A6AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E11402EF29E46EB800181345 /* XCRemoteSwiftPackageReference "SwiftUIToast" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jebenjamin/SwiftUIToast";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		E1A04B742965E24E0075AB2D /* XCRemoteSwiftPackageReference "effects-library" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/GetStream/effects-library";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		E1AA428D296A369D00CA2FBA /* XCRemoteSwiftPackageReference "BottomSheet" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/lucaszischka/BottomSheet";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E1A04B752965E24E0075AB2D /* EffectsLibrary */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E1A04B742965E24E0075AB2D /* XCRemoteSwiftPackageReference "effects-library" */;
+			productName = EffectsLibrary;
+		};
+		E1AA428E296A369D00CA2FBA /* BottomSheet */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E1AA428D296A369D00CA2FBA /* XCRemoteSwiftPackageReference "BottomSheet" */;
+			productName = BottomSheet;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = E1A04B3F2964FB7A0075AB2D /* Project object */;
+}

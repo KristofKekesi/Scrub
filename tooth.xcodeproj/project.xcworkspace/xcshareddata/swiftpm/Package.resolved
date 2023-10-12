@@ -1,0 +1,32 @@
+{
+  "pins" : [
+    {
+      "identity" : "bottomsheet",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/lucaszischka/BottomSheet",
+      "state" : {
+        "revision" : "4c9ef84552712e0117c37d4893270fdc28fb9288",
+        "version" : "3.1.0"
+      }
+    },
+    {
+      "identity" : "effects-library",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/GetStream/effects-library",
+      "state" : {
+        "revision" : "09ebd8e7536aa6dd70a48042244524e895ccd2aa",
+        "version" : "1.0.0"
+      }
+    },
+    {
+      "identity" : "swiftuitoast",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/jebenjamin/SwiftUIToast",
+      "state" : {
+        "revision" : "0b73244618b4950aec7a7d94068b683e5424b7d0",
+        "version" : "1.0.5"
+      }
+    }
+  ],
+  "version" : 2
+}
